@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mónica Pérez - Welcome</title>
+    <meta charset="UTF-8"> <!-- Added this line to ensure proper character encoding -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Remove default body margin */
+            line-height: 1.6;
+            color: #333;
+            background-image: url('image.jpg'); /* Using the uploaded image.jpg */
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents image repetition */
+            background-attachment: fixed; /* Fixes the background image while scrolling */
+            background-position: center center; /* Centers the background image */
+            min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+            display: flex; /* Use flexbox to center content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            padding: 20px; /* Add some padding around the content box */
+            box-sizing: border-box; /* Include padding in element's total width and height */
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Reverted to less transparent */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            max-width: 600px; /* Made the container smaller */
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0; /* Remove top margin for H1 inside container */
+            font-family: 'Verdana', sans-serif; /* Highlighted font for the name */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Optional: adds a subtle shadow */
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none; /* Remove bullet points for cleaner link list */
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li a {
+            display: inline-block; /* Make links block-level for padding */
+            padding: 8px 15px;
+            border: 1px solid #3498db;
+            border-radius: 5px;
+            background-color: #eaf6fd;
+            transition: background-color 0.3s ease; /* Smooth transition on hover */
+        }
+
+        li a:hover {
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Style for the very small quote */
+        .quote {
+            font-size: 0.7em; /* Reverted to previous size */
+            margin-top: 30px; /* Adds space above the quote */
+            color: #555; /* A slightly darker grey for better readability of small text */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mónica Pérez</h1>
+        <p>Telecom and IT professional with extensive experience in system integration, testing, deployments, and support, now transitioning into network administration. Committed to continuous learning and staying current with evolving technologies.</p>
+
+        <p>Discover my professional highlights:</p>
+        <ul>
+            <li><a href="portfolio.html">My Portfolio of Projects</a></li>
+            <li><a href="Monica_Perez_Mata_CV_June112025.pdf" target="_blank">My Detailed CV (PDF)</a></li>
+        </ul>
+
+        <h2>Contact Me</h2>
+        <p>You can reach me at: <a href="mailto:monica.a.perez.mata@gmail.com">monica.a.perez.mata@gmail.com</a></p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/monica-perez-mata">LinkedIn</a></p>
+
+        <p class="quote">
+            <small>“Work hard, stay disciplined and be patient. Your time will come.”<br>― Victoria Osteen</small>
+        </p>
+    </div>
+
+</body>
+</html>

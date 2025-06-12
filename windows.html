@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mónica Pérez - Windows Project Details</title>
+    <meta charset="UTF-8">
+    <style>
+        /* General styling for the body and container, consistent with other pages */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-image: url('image.jpg'); /* Using the uploaded image.jpg from root */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align content to the top for longer pages */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px; /* Adjusted max-width for content */
+            text-align: left; /* Align text to the left */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-align: center;
+            font-family: 'Verdana', sans-serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            background-color: #ecf0f1;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-align: center; /* Center the section title */
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Navigation button styling */
+        .navigation-buttons {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation-buttons a:hover {
+            background-color: #2980b9;
+        }
+
+        .project-description {
+            text-align: left; /* Align description text to the left */
+            margin-bottom: 20px;
+        }
+
+        .document-link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px; /* Space from descriptive text */
+            background-color: #5cb85c; /* A distinct color for document links (green) */
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .document-link-button:hover {
+            background-color: #4cae4c; /* Darker green on hover */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mónica Pérez - Windows Project Details</h1>
+
+        <div class="project-description">
+            <h2>Windows Installation and Configuration</h2>
+            <ul>
+                <li><strong>VMware Installation:</strong>
+                    <ul>
+                        <li>Windows 10 and Windows 11</li>
+                        <li>Windows Server 2019 and 2022</li>
+                    </ul>
+                </li>
+                <li><strong>Disk Management:</strong>
+                    <ul>
+                        <li>Create partitions, format disks, and set up RAID configurations.</li>
+                        <li>Extend and shrink volumes.</li>
+                        <li>Create simple, spanned, striped, mirrored, and RAID 5 volumes.</li>
+                    </ul>
+                </li>
+                <li><strong>Group Policy Management:</strong>
+                    <ul>
+                        <li>Create and edit Group Policy Objects (GPOs).</li>
+                        <li>Map drives for home and shared folders.</li>
+                        <li>Test GPOs on Windows clients.</li>
+                    </ul>
+                </li>
+                <li><strong>Windows Deployment Services (WDS):</strong>
+                    <ul>
+                        <li>Install WDS and extract install.wim files.</li>
+                        <li>Add boot and install images.
+                        <li>Create multicast transmissions and deploy Windows 10 Pro automatically.</li>
+                    </ul>
+                </li>
+                <li><strong>DHCP Configuration:</strong>
+                    <ul>
+                        <li>Install and configure DHCP on the server.</li>
+                        <li>Set IP address ranges and lease durations.</li>
+                        <li>Verify DHCP settings on Windows clients.</li>
+                    </ul>
+                </li>
+                <li><strong>Routing and Remote Access:</strong>
+                    <ul>
+                        <li>Install and configure Routing and Remote Access.</li>
+                        <li>Set up VPN and NAT.</li>
+                        <li>Test internet connectivity on Windows clients.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                View the full course manual for comprehensive procedures on Windows installation, configuration, and administration. This document provides a complete and easy-to-follow guide based on class exercises.
+            </p>
+            <p>
+                <a href="Projects/windows1.pdf" target="_blank" class="document-link-button">Windows Course Procedure Manual</a>
+            </p>
+        </div>
+
+        <div class="project-description">
+            <h2>Network Installation and Administration II</h2>
+            <p>This section delves into advanced topics for managing and securing network infrastructures using Windows Server, particularly focusing on Active Directory services and cloud-based identity solutions.</p>
+            <ul>
+                <li>Installing & Configuring Windows Server 2022 and 2025 – Setup and optimization</li>
+                <li>Deploying a Domain Controller – Centralized authentication management</li>
+                <li>Managing User Accounts, Groups & Computer Objects – Efficient identity management</li>
+                <li>Implementing & Managing Organizational Units (OUs) – Structured administration</li>
+                <li>PowerShell for User, Group & GPO Management – Automation & scripting</li>
+                <li>Advanced Active Directory DS Infrastructure Management – Scalable directory services</li>
+                <li>Implementing & Managing Group Policies (GPO) – Policy enforcement & security</li>
+                <li>Folder Redirection & Script Management – Streamlined user environments</li>
+                <li>Securing Domain Controllers & AD DS Security – Hardening authentication systems</li>
+                <li>Deploying & Managing Certificate Authority (CA) – Secure digital identities</li>
+                <li>Azure Entra ID – Cloud-based identity & access management</li>
+            </ul>
+            <p>
+                <a href="windows2.html" class="document-link-button">Windows Network Installation and Administration II Exercises</a>
+            </p>
+        </div>
+
+
+        <div class="navigation-buttons">
+            <a href="index.html">Back to Main Menu</a>
+            <a href="portfolio.html">Back to Previous Menu</a>
+        </div>
+    </div>
+
+</body>
+</html>

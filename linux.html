@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mónica Pérez - Linux Project Images</title>
+    <meta charset="UTF-8">
+    <style>
+        /* General styling for the body and container, consistent with other pages */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-image: url('image.jpg'); /* Using the uploaded image.jpg from root */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align content to the top for longer pages */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px; /* Adjusted max-width for content */
+            text-align: center; /* Center main container content */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-align: center;
+            font-family: 'Verdana', sans-serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            background-color: #ecf0f1;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-align: center; /* Center the section title */
+        }
+
+        img {
+            max-width: 100%; /* Ensures images are responsive and don't overflow */
+            height: auto; /* Maintains aspect ratio */
+            display: block; /* Removes extra space below images */
+            margin: 20px auto; /* Centers images and adds vertical space */
+            border: 1px solid #ddd; /* Subtle border around images */
+            border-radius: 5px; /* Rounded corners for images */
+        }
+
+        /* Navigation button styling */
+        .navigation-buttons {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation-buttons a:hover {
+            background-color: #2980b9;
+        }
+
+        .project-description {
+            text-align: left; /* Align description text to the left */
+            margin-bottom: 20px;
+        }
+
+        .document-link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 15px; /* Space from descriptive text */
+            background-color: #5cb85c; /* A distinct color for document links (green) */
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .document-link-button:hover {
+            background-color: #4cae4c; /* Darker green on hover */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mónica Pérez - Linux Project Details</h1>
+
+        <div class="project-description">
+            <h2>Linux Installation & Configuration</h2>
+            <p><strong>Linux Distributions:</strong></p>
+            <ul>
+                <li><strong>Fedora</strong> – Cutting-edge & innovative</li>
+                <li><strong>Debian</strong> – Stable & versatile</li>
+                <li><strong>Ubuntu</strong> – User-friendly & popular</li>
+                <li><strong>CentOS</strong> – Enterprise-grade reliability</li>
+                <li><strong>openSUSE</strong> – Powerful & flexible</li>
+            </ul>
+            <p><strong>Server Setup & Services:</strong></p>
+            <ul>
+                <li><strong>BIND DNS</strong> – Domain name resolution</li>
+                <li><strong>SSHD</strong> – Secure remote access</li>
+                <li><strong>Sendmail & Dovecot</strong> – Email services</li>
+                <li><strong>Apache & Webmin</strong> – Web server & admin tools</li>
+                <li><strong>Samba</strong> – File sharing across systems</li>
+                <li><strong>LAMP Stack</strong> – Full web hosting environment</li>
+            </ul>
+            <p>
+                View the full course manual for comprehensive procedures on Linux installation, configuration, and administration. This document provides a complete and easy-to-follow guide based on class exercises.
+            </p>
+            <p>
+                <a href="Projects/linux1.pdf" target="_blank" class="document-link-button">View Linux Course Procedure Manual</a>
+            </p>
+        </div>
+
+        <div class="project-description">
+            <h2>Linux Network Installation and Administration</h2>
+            <p>Exercises for this section used AlmaLinux Server—a stable, RHEL-compatible distro with long-term support and a strong open-source community.</p>
+            <ul>
+                <li>Linux Partition Scheme – Structure your disk for performance and flexibility</li>
+                <li>Application Installation – Manage software efficiently via packages</li>
+                <li>File System Management – Understand and control Linux file hierarchies</li>
+                <li>LVM & Quota – Flexible storage with logical volumes and usage limits</li>
+                <li>Networking - NetworkManager Service , Network Configuration, Routing Configuration (IP forward, Firewall)</li>
+                <li>TELNET & SSH – Remote access protocols for administration</li>
+                <li>NFS & SAMBA – Share files across Linux and Windows systems</li>
+                <li>CUPS & NTP – Printer management and time synchronization</li>
+                <li>DNS, DHCP & FTP – Core network services setup and deployment</li>
+                <li>Apache Server – Host and manage websites with confidence</li>
+                <li>Apache Virtual Hosts – Serve multiple sites from one server</li>
+                <li>Apache Optimization – Enhance speed, scalability, and reliability</li>
+            </ul>
+            <p>
+                <a href="linux2.html" class="document-link-button">View Linux Network Administration Exercises</a>
+            </p>
+        </div>
+
+        <div class="navigation-buttons">
+            <a href="index.html">Back to Main Menu</a>
+            <a href="portfolio.html">Back to Previous Menu</a>
+        </div>
+    </div>
+
+</body>
+</html>

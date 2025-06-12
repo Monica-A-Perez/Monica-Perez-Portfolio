@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mónica Pérez - Linux Network Administration Exercises</title>
+    <meta charset="UTF-8">
+    <style>
+        /* General styling for the body and container, consistent with other pages */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-image: url('image.jpg'); /* Using the uploaded image.jpg from root */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align content to the top for longer pages */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px; /* Adjusted max-width for content */
+            text-align: left; /* Align text to the left */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-align: center;
+            font-family: 'Verdana', sans-serif;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            background-color: #ecf0f1;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-align: center; /* Center the section title */
+        }
+
+        h3 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid #eee; /* Subtle line under sub-headings */
+            padding-bottom: 5px;
+        }
+
+        /* Navigation button styling */
+        .navigation-buttons {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .navigation-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation-buttons a:hover {
+            background-color: #2980b9;
+        }
+
+        .pdf-list {
+            list-style-type: none; /* Remove default bullet points */
+            padding: 0;
+            margin: 20px 0; /* Align left with container */
+        }
+
+        .pdf-list li {
+            margin-bottom: 10px; /* Space between list items */
+        }
+
+        .pdf-list li a {
+            display: block; /* Make the entire list item clickable */
+            padding: 12px 20px;
+            background-color: #eaf6fd; /* Light background for the link button */
+            border: 1px solid #3498db;
+            border-radius: 8px; /* More rounded corners */
+            text-align: left;
+            color: #2c3e50; /* Darker text for readability */
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow */
+            word-wrap: break-word; /* Ensures long text breaks to next line */
+        }
+
+        .pdf-list li a:hover {
+            background-color: #3498db; /* Blue on hover */
+            color: white;
+            transform: translateY(-2px); /* Slight lift effect */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Nested list for Lab 1 sub-items */
+        .pdf-list .nested-list {
+            list-style-type: none;
+            padding-left: 20px; /* Indent nested items further */
+            margin-top: 5px;
+        }
+
+        .pdf-list .nested-list li a {
+            padding: 10px 15px; /* Slightly smaller padding for nested links */
+            background-color: #f5fafd; /* Lighter background for sub-items */
+            border-color: #a0cff0; /* Lighter border for sub-items */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mónica Pérez - Linux Network Administration Exercises</h1>
+
+        <p style="text-align: center;">Below you will find links to detailed PDF documents for specific exercises conducted during the Linux Network Installation and Administration module. These exercises utilized AlmaLinux Server for practical application.</p>
+
+        <ul class="pdf-list">
+            <li>
+                <h3>Lab 1: AlmaLinux Server, Ubuntu & Windows 11 Clients Installation</h3>
+                <ul class="nested-list">
+                    <li><a href="Projects/linux2/Lab1.1.pdf" target="_blank">Lab 1.1 - AlmaLinux - VMware Installation</a></li>
+                    <li><a href="Projects/linux2/Lab1.2.pdf" target="_blank">Lab 1.2 - Ubuntu - VMware Installation</a></li>
+                    <li><a href="Projects/linux2/Lab1.3.pdf" target="_blank">Lab 1.3 - Windows 11 - VMware Installation</a></li>
+                </ul>
+            </li>
+            <li><h3><a href="Projects/linux2/Lab2.pdf" target="_blank">Lab 2 - Software Installation</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab3.pdf" target="_blank">Lab 3 - File System Management</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab4.pdf" target="_blank">Lab 4 - LVM Storage & Quota Management</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab5.pdf" target="_blank">Lab 5 - Network and Routing Configuration</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab6.pdf" target="_blank">Lab 6 - Installation and Configuration of Telnet and SSH</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab7.1.pdf" target="_blank">Lab 7.1 - Installation and Configuration of NFS</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab7.2.pdf" target="_blank">Lab 7.2 - Installation and Configuration of SAMBA</a></h3></li>
+            <li><h3><a href="Projects/linux2/Lab8.pdf" target="_blank">Lab 8 - Installation and Configuration of CUPS-NTP</a></h3></li>
+            <li><h3><a href="Projects/linux2/Project_P1.pdf" target="_blank">Project Part I</a> Setting up a basic web server using Apache on Linux and creating a website with HTML.</h3></li>
+            <li><h3><a href="Projects/linux2/Project_P2.pdf" target="_blank">Project Part II</a> Including Name-Based and Port-Based Virtual Hosts, Name-based virtual hosts with access control, Virtual Web Servers by IP and Port, Dynamic Virtual Hosting.</h3></li>
+            <li><h3><a href="Projects/linux2/Project_P3.pdf" target="_blank">Project Part III</a> Including Multi-Process Module (MPM), Apache Server Monitoring, CGI, PHP, MYSQL/PHP, SSL.</h3></li>
+            <li><h3><a href="Projects/linux2/FinalExam.pdf" target="_blank">Final Exam</a></h3></li>
+        </ul>
+
+        <div class="navigation-buttons">
+            <a href="index.html">Back to Main Menu</a>
+            <a href="portfolio.html">Back to Previous Menu</a>
+        </div>
+    </div>
+
+</body>
+</html>

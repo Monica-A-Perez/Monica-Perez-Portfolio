@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mónica Pérez - Portfolio</title>
+    <meta charset="UTF-8"> <!-- Added this line to ensure proper character encoding -->
+    <style>
+        /* General styling for the body and container, consistent with index.html and cv.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            color: #333;
+            background-image: url('image.jpg'); /* Using the uploaded image.jpg */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align content to the top for longer pages */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 900px; /* Adjusted max-width for more content */
+            text-align: left; /* Keep text aligned left for readability */
+            margin-top: 20px; /* Add some space from the top */
+            margin-bottom: 20px; /* Add some space at the bottom */
+        }
+
+        /* Headings styling */
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-top: 0;
+            text-align: center;
+            font-family: 'Verdana', sans-serif; /* Consistent with index.html */
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Consistent with index.html */
+        }
+
+        h2 {
+            background-color: #ecf0f1;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        /* Link styling */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* List styling */
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        /* Adjusting for nested lists (e.g., CCNA sub-sections) */
+        ul ul {
+            list-style-type: circle; /* Use a different bullet for nested lists */
+            margin-left: 30px; /* Further indent nested lists */
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Submenu styling */
+        .submenu {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 10px 0;
+            background-color: #f8f8f8; /* Light background for the menu */
+            border-bottom: 1px solid #eee;
+            border-radius: 5px;
+        }
+
+        .submenu a {
+            display: inline-block;
+            padding: 8px 15px;
+            margin: 0 10px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .submenu a:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+            text-decoration: none;
+        }
+
+        .project-link-button {
+            display: inline-block; /* Make it behave like a block for padding/margins */
+            padding: 8px 15px;
+            margin-top: 10px; /* Space from heading */
+            background-color: #3498db;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            font-weight: bold;
+        }
+
+        .project-link-button:hover {
+            background-color: #2980b9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Mónica Pérez - Portfolio</h1>
+
+        <div class="submenu">
+            <a href="#education-projects">Education Projects</a>
+            <a href="#professional-projects">Professional Projects</a>
+        </div>
+
+        <h2 id="education-projects">Education Projects - AEC Network Administration Program - John Abbott College</h2>
+
+        <h3>Linux</h3>
+        <p><a href="linux.html" class="project-link-button">View Linux Projects</a></p>
+        <ul>
+            <!-- Project descriptions removed -->
+        </ul>
+
+        <h3>Windows</h3>
+        <p><a href="windows.html" class="project-link-button">View Windows Projects</a></p>
+        <ul>
+            <!-- Project descriptions removed -->
+        </ul>
+
+        <h3>CCNA</h3>
+        <p><a href="ccna.html" class="project-link-button">View CCNA Projects</a></p>
+        <ul>
+            <!-- All nested CCNA links and descriptions removed -->
+        </ul>
+
+        <h2 id="professional-projects">Professional Projects</h2>
+        <p>Details about significant projects from my professional experience. Please note: Specific project details may be generalized due to confidentiality.</p>
+        <ul>
+            <li>
+                <h3>Project Title 1: 5G Core Network Deployment Support</h3>
+                <p><strong>Description:</strong> Supported the deployment and integration of 5G core network elements for major North American operators.</p>
+                <p><strong>Key Contributions:</strong> Participated in testing, troubleshooting, and optimization phases to ensure system performance and reliability.</p>
+                <!-- Add more details or a link to a non-confidential overview if available -->
+            </li>
+            <li>
+                <h3>Project Title 2: CI/CD Pipeline Enhancement</h3>
+                <p><strong>Description:</strong> Contributed to the development and optimization of CI/CD pipelines in a DevOps environment.</p>
+                <p><strong>Key Contributions:</strong> Implemented automated testing frameworks and GitOps principles to accelerate software delivery cycles.</p>
+            </li>
+            <!-- Add more professional projects here, following a similar structure -->
+        </ul>
+
+        <p><a href="index.html">Back to Main Page</a></p>
+    </div>
+
+</body>
+</html>
