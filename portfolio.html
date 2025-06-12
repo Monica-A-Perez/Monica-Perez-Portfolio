@@ -125,6 +125,51 @@
             background-color: #2980b9;
             text-decoration: none;
         }
+
+        /* Styling for professional experience entries */
+        .job-entry {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #fcfcfc;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+        }
+
+        .job-entry h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #34495e;
+            font-size: 1.3em;
+            border-bottom: none; /* Remove extra border from internal h3 */
+            padding-bottom: 0;
+        }
+
+        .job-details {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .job-details strong {
+            color: #333;
+        }
+
+        .job-description {
+            margin-bottom: 10px;
+        }
+
+        .job-skills {
+            font-size: 0.85em;
+            color: #555;
+            font-weight: bold;
+            margin-top: 10px;
+            padding-top: 5px;
+            border-top: 1px dashed #eee;
+        }
+        .job-skills span {
+            font-weight: normal; /* Make the actual skill names normal weight */
+        }
     </style>
 </head>
 <body>
@@ -158,21 +203,128 @@
         </ul>
 
         <h2 id="professional-projects">Professional Projects</h2>
-        <p>Details about significant projects from my professional experience. Please note: Specific project details may be generalized due to confidentiality.</p>
-        <ul>
-            <li>
-                <h3>Project Title 1: 5G Core Network Deployment Support</h3>
-                <p><strong>Description:</strong> Supported the deployment and integration of 5G core network elements for major North American operators.</p>
-                <p><strong>Key Contributions:</strong> Participated in testing, troubleshooting, and optimization phases to ensure system performance and reliability.</p>
-                <!-- Add more details or a link to a non-confidential overview if available -->
-            </li>
-            <li>
-                <h3>Project Title 2: CI/CD Pipeline Enhancement</h3>
-                <p><strong>Description:</strong> Contributed to the development and optimization of CI/CD pipelines in a DevOps environment.</p>
-                <p><strong>Key Contributions:</strong> Implemented automated testing frameworks and GitOps principles to accelerate software delivery cycles.</p>
-            </li>
-            <!-- Add more professional projects here, following a similar structure -->
-        </ul>
+        <p>Details about significant projects from my professional experience.</p>
+
+        <div class="job-entry">
+            <h3>Resident Engineer</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Aug 1992 - May 2024 (31 yrs 10 mos) | On-site | Montreal, Quebec, Canada
+            </div>
+            <p class="job-description">
+                Worked as a resident engineer in customer lab including tasks like new deployments and upgrades, troubleshooting, maintenance and testing for 5G user plane products. Test case preparation based on requirements for end-to-end testing for 5G user plane.
+            </p>
+            <ul>
+                <li>Prepared instructions and procedures to be applied in production environments based on operator’s requirements; implemented and maintained monitoring solutions utilizing Grafana, ELK (Elasticsearch, Logstash, Kibana), to track system and application metrics, analyze logs, and visualize performance data.</li>
+                <li>Report and follow up to design of found issues found during testing and operation; developed and delivered engaging presentations and materials to educate customers about product features, benefits, and value propositions.</li>
+                <li>Mentored and trained junior team members, sharing insights and best practices to enhance overall team performance; collaborate cross-functionally with team members to successfully complete projects on time and within budget.</li>
+            </ul>
+            <p class="job-skills">
+                <strong>Skills:</strong> <span>Scheduling</span> · <span>Logging</span> · <span>Orchestration</span> · <span>Security Policy</span>
+            </p>
+        </div>
+
+        <div class="job-entry">
+            <h3>System Tester</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Dec 2020 - Dec 2021 (1 yr 1 mo) | On-site | Montreal, Quebec, Canada
+            </div>
+            <p class="job-description">
+                PDU Packet Core 5GC Session Management Function (SMF) System Test
+            </p>
+            <ul>
+                <li>Verified proper functionality of system integrations through detailed end-to-end testing scenarios, confirming seamless data flow between components, reporting faults. Tested for different areas like characteristics, stability, maintainability, and robustness.</li>
+                <li>Increased testing efficiency by implementing automated testing frameworks, resulting in faster release cycles; collaborated closely with cross-functional Agile teams to deliver high-quality products and services.</li>
+                <li>Operated within a robust Continuous Integration/Continuous Deployment (CI/CD) environment, facilitating the rapid and reliable delivery of software solutions.</li>
+                <li>Leveraged GitHub as the primary version control system for managing source code repositories and facilitating collaborative development workflows.</li>
+                <li>Used Grafana dashboards to create visually rich and interactive representations of monitoring data, providing actionable insights into system performance and health.</li>
+                <li>Conducted performance analysis and troubleshooting using Prometheus tools to identify bottlenecks, optimize resource utilization, and enhance system scalability and reliability; used traffic generators to simulate end-to-end environment.</li>
+            </ul>
+            <p class="job-skills">
+                <strong>Skills:</strong> <span>Scheduling</span> · <span>Logging</span> · <span>Orchestration</span> · <span>Security Policy</span>
+            </p>
+        </div>
+
+        <div class="job-entry">
+            <h3>System Integrator</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Dec 2016 - Dec 2020 (4 yrs 1 mo) | On-site | Montreal, Quebec, Canada
+            </div>
+            <p class="job-description">
+                IMS - AAA (Authentication, Authorization, and Accounting) and DNS (Domain Name System)
+            </p>
+            <ul>
+                <li><strong>Presales and Solution Design:</strong> Led requirements gathering sessions with clients to understand their unique business needs and challenges. Collaborated with Solutions Architects to design scalable and efficient integration solutions that aligned with customer goals. Developed detailed system configurations to ensure optimal performance and compatibility across diverse environments.</li>
+                <li><strong>Implementation and Validation:</strong> Successfully implemented complex integrations. Developed and executed comprehensive test plans to identify and address potential issues before deployment. Troubleshot and resolved critical integration problems preventing service disruptions and minimizing customer impact.</li>
+                <li><strong>Technical Support:</strong> Provided expert technical guidance to customer support teams, enabling them to resolve issues efficiently and effectively. Created and tracked product development tickets to ensure timely resolution of integration-related bugs and enhancements. Developed and maintained knowledge base articles to empower customers and support teams with self-service resources.</li>
+                <li><strong>Process Improvement:</strong> Identified and implemented automation opportunities that streamlined integration processes, reducing manual effort. Developed and executed process improvement initiatives that resulted in increase in integration efficiency.</li>
+                <li><strong>Project Coordination:</strong> Led cross-functional teams to successfully deliver complex integration projects within budget and on schedule. Effectively managed project timelines, resources, and risks to ensure project success. Fostered collaboration and communication among stakeholders to drive project alignment and progress.</li>
+            </ul>
+            <p class="job-skills">
+                <strong>Skills:</strong> <span>Logging</span>
+            </p>
+        </div>
+
+        <div class="job-entry">
+            <h3>Service Professional</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Jan 2015 - Dec 2016 (2 yrs) | On-site | Montreal, Quebec, Canada
+            </div>
+            <p class="job-description">
+                I successfully integrated and tested VoWiFi solutions, driving improvements in user experience and customer satisfaction.
+            </p>
+            <ul>
+                <li>Conducted rigorous testing at Rogers customer site laboratories to ensure high-quality voice call performance.</li>
+                <li>Worked closely with diverse teams to troubleshoot issues and implement effective solutions.</li>
+                <li>Developed expertise in VoWiFi technology, enhancing my problem-solving and communication skills.</li>
+            </ul>
+            <p class="job-skills">
+                <!-- No specific skills provided for this role in the original text, so keeping it empty or removing if preferred. -->
+            </p>
+        </div>
+
+        <div class="job-entry">
+            <h3>Services Professional</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Jan 2006 - Dec 2015 (10 yrs) | On-site | Montreal, Quebec, Canada
+            </div>
+            <p class="job-description">
+                Market patch design, implementation and testing for 3G / 4G / IMS / VoLTE systems for North American Customers.
+            </p>
+            <p class="job-skills">
+                <strong>Skills:</strong> <span>Agile Methodologies</span> · <span>Design Systems</span> · <span>Agile & Waterfall Methodologies</span> · <span>Kanban</span>
+            </p>
+        </div>
+
+        <div class="job-entry">
+            <h3>Integration and Verification Professional</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Sep 2002 - Dec 2006 (4 yrs 4 mos) | On-site | Montreal, Quebec, Canada
+            </div>
+            <p class="job-description">
+                I focused on optimizing software integration and verification processes, leading to enhanced system stability and performance.
+            </p>
+            <ul>
+                <li>Deployed and managed load traffic simulators, facilitating accurate testing scenarios for the development team.</li>
+                <li>Executed integration and functional tests, identifying critical defects that improved overall software quality.</li>
+                <li>Collaborated with cross-functional teams to ensure timely resolution of reported issues, enhancing user satisfaction.</li>
+            </ul>
+            <p class="job-skills">
+                <strong>Skills:</strong> <span>Debugging</span>
+            </p>
+        </div>
+
+        <div class="job-entry">
+            <h3>Software Developer</h3>
+            <div class="job-details">
+                <strong>Ericsson</strong> | Permanent Full-time | Nov 1992 - Aug 2002 (9 yrs 10 mos) | On-site | Saltillo, Coahuila, Mexico
+            </div>
+            <p class="job-description">
+                As a Software Developer at Ericsson, I was integral to the entire development lifecycle, from feasibility assessments to deployment. My role involved defect correction for cellular telecommunications systems, enhancing system performance and reliability. I also contributed to knowledge transfer initiatives by creating training materials for a new international R&D site, focusing on TDMA, GSM, and CDMA technologies.
+            </p>
+            <p class="job-skills">
+                <strong>Skills:</strong> <span>Compliance Analysis</span> · <span>Logging</span> · <span>Debugging</span> · <span>Telecommunications</span> · <span>Time Management</span>
+            </p>
+        </div>
 
         <p><a href="index.html">Back to Main Page</a></p>
     </div>
